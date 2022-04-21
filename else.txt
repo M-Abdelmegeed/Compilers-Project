@@ -1,0 +1,6 @@
+if x then
+    y := 7 ;
+else
+    z := x ;
+    y := 5 ;
+end

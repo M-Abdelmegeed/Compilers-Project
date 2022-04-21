@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>959</width>
+    <height>872</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-40</x>
+     <y>-10</y>
+     <width>1151</width>
+     <height>881</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Downloads/compilers.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="browse">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>720</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 183, 0);
+color: rgb(0, 0, 0);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="filename">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>730</y>
+     <width>371</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="proceed">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>790</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 178, 53);</string>
+   </property>
+   <property name="text">
+    <string>Proceed</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="test12.qrc"/>
+ </resources>
+ <connections/>
+</ui>
